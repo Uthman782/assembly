@@ -1,5 +1,5 @@
 org 100h
-    mov bl, 50
+    mov bl, 10
     mov bh,1  
     mov ah, 02h
 
