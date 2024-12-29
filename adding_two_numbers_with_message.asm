@@ -8,7 +8,7 @@ main proc
     mov dx,@data
     mov ds,dx
     
-    ;mov dx,offset n1
+    ;mov dx,offset n
     LEA dx,n
     mov ah,9D
     int 21h
@@ -20,9 +20,7 @@ main proc
     mov dl,10D
     mov ah,2
     int 21h
-    
     mov dl,13D
-    mov ah,2
     int 21h
     
     LEA dx,n
@@ -36,9 +34,7 @@ main proc
     mov dl,10D
     mov ah,2
     int 21h
-    
     mov dl,13D
-    mov ah,2
     int 21h
     
     LEA dx,sum

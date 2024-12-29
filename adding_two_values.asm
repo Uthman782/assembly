@@ -19,12 +19,10 @@ main proc
      
      mov dl, 0DH    
      ;mov dl,13   ; Removing extra spaces 
-     mov ah,2h
      int 21h  
      
      mov dl,bl
      add dl,48d   ; subtracting 48D from dl    
-     mov ah,2h
      int 21h
     
      mov ah,4ch
